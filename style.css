@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(298deg, rgb(0, 0, 0) 0%, rgb(43, 42, 42) 87%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.logo img {
+    max-height: 80px;
+    max-width: 120px;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 55px;
+}
+
+.topnav a:hover {
+    
+    background-color: rgb(94, 85, 85);
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+
+
+}
+
+.navbar {
+    float: right;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infos {
+    float: left;
+    border: #ffffff;
+    margin-left: 35px;
+    margin-top: 55px;
+
+
+}
+
+h3 {
+    color: #ffffff;
+    margin-bottom: -20px;
+
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: -20px;
+}
+
+p {
+    color: white;
+    margin-top: 50px;
+    font-family: "Open_Sans variant0", Tofu;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    height: 50vh;
+    padding-bottom: 70px;
+
+}
+
+.content img {
+    filter: drop-shadow(30px 10px 4px #000000);
+    height: 66vh;
+    width: 100%;
+}
+
+.ana:hover {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+
+}
+.ana{
+    height: 70vh;
+    width: auto;
+}
+
+.contactbutton {
+
+    background-color: rgba(0, 0, 0, 0);
+    padding-right: 27px;
+    padding-left: 27px;
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+
+.contactbutton a {
+    font-family: "Open_Sans variant0", Tofu;
+    color: white;
+    text-decoration: none;
+}
+
+.contactbutton a:hover {
+    color: rgba(200, 199, 199, 0.936);
+}
+
+@media screen and (max-width: 570px) {
+    .portfolio {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+.fab fa-github{
+    text-decoration: none;
+    
+    background-color: white;
+}
+.icones{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+.modif{
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+}
